@@ -932,6 +932,22 @@
 	color: #ff0000;
 	font-weight: bold;
     }
+    
+    .illustration {
+      background-color: #7fecad;
+      display: block;
+      color: black;
+      padding: 10px;
+      border-radius: 4px;
+      box-shadow: 2px 2px 2px 2px #6edb9c;
+    }
+    .illustration::before {
+      content: 'Illustration';
+      font-weight: bold;
+      font-style: normal;
+    }
+
+    
     .rss_box {}
     .rss_title, rss_title a {}
     .rss_items {}
